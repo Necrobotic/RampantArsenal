@@ -1,4 +1,20 @@
 if mods["Krastorio2"] then
+  -- -- Remove obsolete items
+  -- data.raw.recipe["power-armor-mk3-armor-rampant-arsenal"] = nil
+  -- data.raw.technology["rampant-arsenal-technology-power-armor-mk3"] = nil
+
+  -- data.raw.recipe["mk3-shield-rampant-arsenal"] = nil
+  -- data.raw.technology["rampant-arsenal-technology-shield-equipment-2"] = nil
+
+  -- data.raw.recipe["mk3-battery-rampant-arsenal"] = nil
+  -- data.raw.technology["rampant-arsenal-technology-battery-equipment-3"] = nil
+
+  -- data.raw.recipe["mk3-generator-rampant-arsenal"] = nil
+  -- data.raw.technology["rampant-arsenal-technology-generator-equipment-2"] = nil
+
+  -- data.raw.recipe["nuclear-generator-rampant-arsenal"] = nil
+  -- data.raw.technology["rampant-arsenal-technology-generator-equipment-3"] = nil
+
   -- Krastorio Upgrade within Rampant Arsenal
   local names = {'pistol-ammo', 'rifle-ammo', 'anti-material-rifle-ammo'}
   for nCount = 1, #names do
